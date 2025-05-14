@@ -58,4 +58,4 @@ Make sure you have **Node.js** and **npm** installed.
 git clone https://github.com/Pranitha-Gaddam/pomodoro-study-mode.git
 cd pomodoro-studymode-app
 npm install
-npm start
+npm run dev
