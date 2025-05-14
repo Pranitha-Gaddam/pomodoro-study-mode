@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+      font-family: "Gamja Flower";
+    }
+  
+    body {
+      background-color: #fdfeff;
+      overflow-x: hidden;
+    }
+}
+  
+@layer utilities {
+
+
+    .glass-effect {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 0.5px solid rgba(255, 255, 255, 0.8);
+        @apply backdrop-filter backdrop-blur-md shadow-lg
+    }
+    
+    .glass-effect-inactive {
+        background-color: rgba(129, 129, 129, 0.2);
+        border: 0.5px solid rgba(255, 255, 255, 0.7);
+        @apply backdrop-filter backdrop-blur-sm shadow-sm
+    }
+    
+    .glass-effect-nav {
+        background-color: rgba(255, 255, 255, 0.2);
+        /* border: 1px solid rgba(107, 107, 107, 0.5); */
+        box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+        @apply backdrop-filter backdrop-blur-lg
+    }
+
+    .glass-effect-start {
+        background-color: rgba(195, 195, 195, 0.2);
+        border: 0.5px solid rgba(255, 255, 255, 0.7);
+        @apply backdrop-filter backdrop-blur-sm shadow-sm
+    }
+
+    .lofi-overlay {
+        background-color: rgba(0,0,0,0.5);
+    }
+}
+
+
+@layer components {
+  
+  .studymode {
+      background-image: url('images/backgrounds/ff2236e2a40e5102820ea2e02ca53e35.gif');
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .timer {
+      background-color: rgba(255, 255, 255, 0.2);
+      border:1px solid rgba(255, 255, 255, 0.5);
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.059) 0 15px 40px rgba(255, 255, 255, 0.2);
+      @apply backdrop-filter backdrop-blur-sm shadow-xl
+  }
+  
+
+}
