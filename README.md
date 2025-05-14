@@ -2,6 +2,8 @@
 
 This is a customizable, distraction-aware Pomodoro timer built for deep focus, productivity, and intentional rest. It includes timer settings, background personalization, audio controls, and tools to help you stay focused even when your mind starts to wander.
 
+[🌐 View Live on Vercel](https://pomodoro-study-mode.vercel.app)
+
 <img width="1512" alt="Screenshot 2025-05-14 at 12 53 51 AM" src="https://github.com/user-attachments/assets/934aaabf-3338-4779-a9ef-606465870c0a" />
 
 ---
