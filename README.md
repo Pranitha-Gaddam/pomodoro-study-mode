@@ -1,4 +1,4 @@
-# ⏳ Pomodoro Study Mode App
+# ⏳ Pomodoro Study Timer
 
 This is a customizable, distraction-aware Pomodoro timer built for deep focus, productivity, and intentional rest. It includes timer settings, background personalization, audio controls, and tools to help you stay focused even when your mind starts to wander.
 
